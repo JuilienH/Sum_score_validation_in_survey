@@ -4,8 +4,8 @@ In each psycological survey, interviewers collect responses and assign scoress t
 Although the calculation is a summation across all surveys, the challenge is the numbers of questions vary from survey to survey. To intelligently scan the data and provide recommendation, this methodology is used to sum up item scores to become a total score regardless of how many item scores to be summed up.
 
 Here are the outline of R code:
-
-  1: Define query by a subset of data elements due to limited number of DEs that can be queried at the same time
+	
+	1: Define query by a subset of data elements due to limited number of DEs that can be queried at the same time
 	
 	2: Aggregate all associated data elements into one place (Be very cautious about this step. Recommend use Query Tool results to make sure you don’t mismatch these pieces of information)
 	
